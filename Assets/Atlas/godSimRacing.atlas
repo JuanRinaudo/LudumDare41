@@ -1,0 +1,444 @@
+{"frames": [
+
+{
+	"filename": "AbilitiesHelp",
+	"frame": {"x":0,"y":209,"w":299,"h":320},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":320},
+	"sourceSize": {"w":299,"h":320},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Background",
+	"frame": {"x":299,"y":209,"w":720,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":480},
+	"sourceSize": {"w":720,"h":480},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonBoost",
+	"frame": {"x":819,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonCommandLeft",
+	"frame": {"x":723,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonCommandRight",
+	"frame": {"x":867,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonEnlarge",
+	"frame": {"x":771,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonFX",
+	"frame": {"x":417,"y":55,"w":39,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":63},
+	"sourceSize": {"w":39,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonHole",
+	"frame": {"x":915,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonImmunity",
+	"frame": {"x":144,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonLighting",
+	"frame": {"x":963,"y":0,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonMusic",
+	"frame": {"x":318,"y":55,"w":39,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":63},
+	"sourceSize": {"w":39,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonPlank",
+	"frame": {"x":192,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonRepair",
+	"frame": {"x":96,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonSelected",
+	"frame": {"x":240,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonShrink",
+	"frame": {"x":0,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ButtonTeleport",
+	"frame": {"x":48,"y":55,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Car",
+	"frame": {"x":615,"y":0,"w":27,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":55},
+	"sourceSize": {"w":27,"h":55},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "CarDamaged1",
+	"frame": {"x":669,"y":0,"w":27,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":55},
+	"sourceSize": {"w":27,"h":55},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "CarDamaged2",
+	"frame": {"x":642,"y":0,"w":27,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":55},
+	"sourceSize": {"w":27,"h":55},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "CarDead",
+	"frame": {"x":479,"y":0,"w":24,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":48},
+	"sourceSize": {"w":24,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "CarDestroyed",
+	"frame": {"x":696,"y":0,"w":27,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":55},
+	"sourceSize": {"w":27,"h":55},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "CarSelectionTitle",
+	"frame": {"x":0,"y":127,"w":466,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":466,"h":49},
+	"sourceSize": {"w":466,"h":49},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Hole",
+	"frame": {"x":328,"y":0,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "HolePlanked",
+	"frame": {"x":283,"y":0,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lighting",
+	"frame": {"x":313,"y":0,"w":15,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":45},
+	"sourceSize": {"w":15,"h":45},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank0",
+	"frame": {"x":432,"y":0,"w":47,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":25},
+	"sourceSize": {"w":47,"h":25},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank1",
+	"frame": {"x":389,"y":0,"w":43,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":20},
+	"sourceSize": {"w":43,"h":20},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank2",
+	"frame": {"x":151,"y":0,"w":30,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":16},
+	"sourceSize": {"w":30,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank3",
+	"frame": {"x":125,"y":0,"w":26,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":13},
+	"sourceSize": {"w":26,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank4",
+	"frame": {"x":100,"y":0,"w":25,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":13},
+	"sourceSize": {"w":25,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank5",
+	"frame": {"x":50,"y":0,"w":25,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":13},
+	"sourceSize": {"w":25,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank6",
+	"frame": {"x":0,"y":0,"w":25,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":13},
+	"sourceSize": {"w":25,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank7",
+	"frame": {"x":25,"y":0,"w":25,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":13},
+	"sourceSize": {"w":25,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank8",
+	"frame": {"x":75,"y":0,"w":25,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":13},
+	"sourceSize": {"w":25,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank9",
+	"frame": {"x":249,"y":0,"w":34,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":13},
+	"sourceSize": {"w":34,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank10",
+	"frame": {"x":215,"y":0,"w":34,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":13},
+	"sourceSize": {"w":34,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Rank11",
+	"frame": {"x":181,"y":0,"w":34,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":13},
+	"sourceSize": {"w":34,"h":13},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Road",
+	"frame": {"x":387,"y":55,"w":30,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":72},
+	"sourceSize": {"w":30,"h":72},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "RoadLeft",
+	"frame": {"x":357,"y":55,"w":30,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":72},
+	"sourceSize": {"w":30,"h":72},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "RoadRight",
+	"frame": {"x":288,"y":55,"w":30,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":72},
+	"sourceSize": {"w":30,"h":72},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Title",
+	"frame": {"x":466,"y":127,"w":531,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":531,"h":82},
+	"sourceSize": {"w":531,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Tree0",
+	"frame": {"x":539,"y":0,"w":38,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":39},
+	"sourceSize": {"w":38,"h":39},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Tree1",
+	"frame": {"x":577,"y":0,"w":38,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":41},
+	"sourceSize": {"w":38,"h":41},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Tree2",
+	"frame": {"x":503,"y":0,"w":36,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":37},
+	"sourceSize": {"w":36,"h":37},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Tree3",
+	"frame": {"x":358,"y":0,"w":31,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":31},
+	"sourceSize": {"w":31,"h":31},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "UIButton",
+	"frame": {"x":636,"y":55,"w":249,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":54},
+	"sourceSize": {"w":249,"h":54},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "UIButtonSmall",
+	"frame": {"x":456,"y":55,"w":90,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":30},
+	"sourceSize": {"w":90,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "UIButtonSmallSelected",
+	"frame": {"x":546,"y":55,"w":90,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":30},
+	"sourceSize": {"w":90,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "godSimRacing.png",
+	"format": "RGBA8888",
+	"size": {"w":1019,"h":689},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:47a5fa4dd4a78a8b922812d0f235e788:22f0194663b522e2ba5a9d65e43070b8:e35b743c0b96f02d9366051e151ff940$"
+}
+}
