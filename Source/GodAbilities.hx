@@ -1,6 +1,7 @@
 import kha.Assets;
 import kha.Image;
 import kha.Sound;
+import kha.input.KeyCode;
 
 import kext.Application;
 import kext.Basic;
@@ -89,16 +90,28 @@ class GodAbilities extends Basic {
 			if(button.inputPressed() && abilityCooldowns[i].done()) {
 				buttonSelected = button;
 				countdownSelected = abilityCooldowns[i];
-				buttonSelectedHighlight.position = buttonSelected.position;
 				clickedAbility = true;
 				break;
 			}
 			i++;
 		}
 
-		if(buttonSelected != null && !clickedAbility && Application.mouse.buttonPressed(0)) {
-			castAbility(getSelectedType());
-			countdownSelected.start();
+		if(Application.keyboard.keyDown(KeyCode.One) && abilityCooldowns[0].done()) { buttonSelected = abilityButtons[0]; countdownSelected = abilityCooldowns[0]; }
+		if(Application.keyboard.keyDown(KeyCode.Two) && abilityCooldowns[1].done()) { buttonSelected = abilityButtons[1]; countdownSelected = abilityCooldowns[1]; }
+		if(Application.keyboard.keyDown(KeyCode.Three) && abilityCooldowns[2].done()) { buttonSelected = abilityButtons[2]; countdownSelected = abilityCooldowns[2]; }
+		if(Application.keyboard.keyDown(KeyCode.Four) && abilityCooldowns[3].done()) { buttonSelected = abilityButtons[3]; countdownSelected = abilityCooldowns[3]; }
+		if(Application.keyboard.keyDown(KeyCode.Five) && abilityCooldowns[4].done()) { buttonSelected = abilityButtons[4]; countdownSelected = abilityCooldowns[4]; }
+		if(Application.keyboard.keyDown(KeyCode.Six) && abilityCooldowns[5].done()) { buttonSelected = abilityButtons[5]; countdownSelected = abilityCooldowns[5]; }
+		if(Application.keyboard.keyDown(KeyCode.Seven) && abilityCooldowns[6].done()) { buttonSelected = abilityButtons[6]; countdownSelected = abilityCooldowns[6]; }
+		if(Application.keyboard.keyDown(KeyCode.Eight) && abilityCooldowns[7].done()) { buttonSelected = abilityButtons[7]; countdownSelected = abilityCooldowns[7]; }
+		if(Application.keyboard.keyDown(KeyCode.Nine) && abilityCooldowns[8].done()) { buttonSelected = abilityButtons[8]; countdownSelected = abilityCooldowns[8]; }
+		
+		if(buttonSelected != null) {
+			buttonSelectedHighlight.position = buttonSelected.position;
+			if(!clickedAbility && Application.mouse.buttonPressed(0)) {
+				castAbility(getSelectedType());
+				countdownSelected.start();
+			}
 		}
 	}
 
@@ -188,6 +201,7 @@ class GodAbilities extends Basic {
 		var i = 0;
 		for(button in abilityButtons) {
 			var countdown:Countdown = abilityCooldowns[i];
+			button.color.R = button.color.G = button.color.B = countdown.done() ? 1 : 0.4;
 			button.color.A = (1 - (countdown.currentValue / countdown.targetValue)) * 0.8 + 0.2;
 			button.render(backbuffer);
 			i++;

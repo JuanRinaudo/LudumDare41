@@ -60,13 +60,12 @@ class Car extends BasicSprite {
 	public function setCarScale(value:Float) {
 		scale.x = value;
 		scale.y = value;
-		bounds.setScaleFromCenter(Data.game.carBoundScale, Data.game.carBoundOffset.mult(value));
+		bounds.size = new Vector2(box.x * Data.game.carBoundScale.x, box.y * Data.game.carBoundScale.y);
+		bounds.offset = new Vector2(bounds.size.x * bounds.scale.x * 0.5, bounds.size.y * bounds.scale.y * 0.5);
 	}
 
 	public function scaleCar(value:Float) {
-		scale.x += value;
-		scale.y += value;
-		bounds.setScaleFromCenter(Data.game.carBoundScale, Data.game.carBoundOffset.mult(scale.x));
+		setCarScale(scale.x + value);
 	}
 
 	public function repair(ammount:Int = 1, noSound:Bool = false) {
