@@ -183,6 +183,19 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">AbilitiesHelp.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>75,80,149,160</rect>
+                <key>scale9Paddings</key>
+                <rect>75,80,149,160</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Background.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -199,11 +212,15 @@
             <key type="filename">ButtonBoost.png</key>
             <key type="filename">ButtonCommandLeft.png</key>
             <key type="filename">ButtonCommandRight.png</key>
+            <key type="filename">ButtonEnlarge.png</key>
             <key type="filename">ButtonHole.png</key>
+            <key type="filename">ButtonImmunity.png</key>
             <key type="filename">ButtonLighting.png</key>
             <key type="filename">ButtonPlank.png</key>
             <key type="filename">ButtonRepair.png</key>
             <key type="filename">ButtonSelected.png</key>
+            <key type="filename">ButtonShrink.png</key>
+            <key type="filename">ButtonTeleport.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -213,6 +230,20 @@
                 <rect>12,12,24,24</rect>
                 <key>scale9Paddings</key>
                 <rect>12,12,24,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">ButtonFX.png</key>
+            <key type="filename">ButtonMusic.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>10,16,19,31</rect>
+                <key>scale9Paddings</key>
+                <rect>10,16,19,31</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -254,6 +285,19 @@
                 <rect>6,11,11,23</rect>
                 <key>scale9Paddings</key>
                 <rect>6,11,11,23</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">CarSelectionTitle.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>117,12,233,25</rect>
+                <key>scale9Paddings</key>
+                <rect>117,12,233,25</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -396,7 +440,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Tree.png</key>
+            <key type="filename">Tree0.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -406,6 +450,45 @@
                 <rect>10,10,19,19</rect>
                 <key>scale9Paddings</key>
                 <rect>10,10,19,19</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Tree1.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>10,10,19,21</rect>
+                <key>scale9Paddings</key>
+                <rect>10,10,19,21</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Tree2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>9,9,18,19</rect>
+                <key>scale9Paddings</key>
+                <rect>9,9,18,19</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Tree3.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,8,15,15</rect>
+                <key>scale9Paddings</key>
+                <rect>8,8,15,15</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -419,6 +502,20 @@
                 <rect>46,12,91,25</rect>
                 <key>scale9Paddings</key>
                 <rect>46,12,91,25</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">UIButtonSmall.png</key>
+            <key type="filename">UIButtonSmallSelected.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>23,8,45,15</rect>
+                <key>scale9Paddings</key>
+                <rect>23,8,45,15</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -457,9 +554,22 @@
             <filename>Rank3.png</filename>
             <filename>Rank4.png</filename>
             <filename>Rank5.png</filename>
-            <filename>Tree.png</filename>
             <filename>Background.png</filename>
             <filename>Title.png</filename>
+            <filename>ButtonImmunity.png</filename>
+            <filename>ButtonTeleport.png</filename>
+            <filename>CarSelectionTitle.png</filename>
+            <filename>Tree0.png</filename>
+            <filename>Tree1.png</filename>
+            <filename>Tree2.png</filename>
+            <filename>Tree3.png</filename>
+            <filename>ButtonShrink.png</filename>
+            <filename>ButtonEnlarge.png</filename>
+            <filename>ButtonFX.png</filename>
+            <filename>ButtonMusic.png</filename>
+            <filename>UIButtonSmall.png</filename>
+            <filename>UIButtonSmallSelected.png</filename>
+            <filename>AbilitiesHelp.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
